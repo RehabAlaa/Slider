@@ -1,0 +1,52 @@
+body {
+  background-image: url(../img/booking-parallax.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.card {
+  box-shadow: 0px 0px 10px 0px #f0f5f3;
+  cursor: pointer;
+}
+.card-body {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+.card-text {
+  color: #e2e0e0;
+}
+#light-box-Container {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.item {
+  background-image: url("../img/the-blog3new.jpg");
+  background-position: center center;
+  background-size: cover;
+  width: 45%;
+  height: 500px;
+}
+#prevBtn {
+  right: 10%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+}
+#nextBtn {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  left: 10%;
+}
+#closeBtn {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .item {
+    width: 70%;
+    height: 300px;
+  }
+}
